@@ -1,0 +1,19 @@
+{
+  "result": "pass",
+  "tested_at": "2026-10-31T19:51:21.638431+05:30",
+  "python": "3.12.14",
+  "platform": "win32",
+  "pip_cache_used": false,
+  "timings_seconds": {
+    "create_environment": 12.77,
+    "install_no_cache": 127.43,
+    "dependency_check": 1.43,
+    "train": 20.73,
+    "tests": 5.98,
+    "startup_and_dashboard": 2.67
+  },
+  "total_seconds": 171.06,
+  "dashboard_orders": 16,
+  "logs_directory": "C:\\Users\\shash\\OneDrive\\Desktop\\Om\\BP\\.setup-check\\clean-setup-79chalxr",
+  "conditions": "Python already installed; working package-download access. This machine/network only; not a universal setup-time guarantee."
+}

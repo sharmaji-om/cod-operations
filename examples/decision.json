@@ -1,0 +1,51 @@
+{
+  "order_id": "demo-1001",
+  "customer_type": "NEW",
+  "prior_successes": 0,
+  "trust_score": 0,
+  "predicted_rto_probability": 0.21797592082772163,
+  "model_version": "cod-v1/logistic",
+  "financial_estimates": {
+    "delivered_contribution": 402.38,
+    "rto_loss": 169.4,
+    "expected_cod_contribution": 277.74572798912527,
+    "incremental_confirmation_contribution": 8.02243502478778,
+    "confirmation_break_even_probability": 0.13507503249927147,
+    "discount": 32.45,
+    "expected_converted_prepaid_contribution": 348.35679999999996,
+    "assumptions": {
+      "a": 0.5,
+      "b": 0.03,
+      "message_cost": 1.0,
+      "gross_margin": 0.62,
+      "converted_prepaid_rto": 0.04,
+      "discount_basis": "delivered converted prepaid orders only",
+      "acquisition_cost": "sunk; excluded",
+      "causal_effects": "illustrative assumptions, not measured"
+    }
+  },
+  "prepaid_offer": null,
+  "address": {
+    "category": "VALID",
+    "quality_score": 1,
+    "reason": "Deterministic format check; deliverability is not verified.",
+    "review": null,
+    "warnings": []
+  },
+  "warnings": [],
+  "audit_timestamp": "2026-10-31T12:01:44.587587+00:00",
+  "primary_action": "SHIP_AFTER_CONFIRMATION",
+  "sub_action": "CONFIRM_COD",
+  "reason": "Estimated COD return risk 21.8%; confirmation changes expected contribution by Rs 8.02 under configured assumptions.",
+  "required_next_step": "Request explicit YES/NO confirmation.",
+  "triggered_rule_ids": [
+    "R7"
+  ],
+  "workflow": {
+    "confirmation_required": true,
+    "reminder_hours": 24.0,
+    "deadline_hours": 48.0,
+    "clock_policy": "From first confirmation request; reminders never reset it.",
+    "delivery_guaranteed_by_yes": false
+  }
+}

@@ -1,0 +1,21 @@
+import pytest
+
+from cod_engine.schema import Order, Settings
+
+
+@pytest.fixture
+def cfg():
+    return Settings()
+
+
+@pytest.fixture
+def payload():
+    return {"order_id": "example-1", "order_datetime": "2026-10-31T10:00:00+05:30", "customer_name": "Example Customer",
+            "phone": "9000000000", "address": "12 MG Road near school", "city": "Pune", "state": "Maharashtra",
+            "pincode": "411001", "order_value": 649, "items": "Shampoo", "num_items": 1,
+            "customer_prior_orders": 0, "customer_prior_rto": 0, "utm_source": "meta_ads", "courier": "Delhivery", "payment_method": "COD"}
+
+
+@pytest.fixture
+def order(payload):
+    return Order(**payload)

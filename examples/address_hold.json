@@ -1,0 +1,33 @@
+{
+  "order_id": "demo-1001",
+  "customer_type": "NEW",
+  "prior_successes": 0,
+  "trust_score": 0,
+  "predicted_rto_probability": null,
+  "model_version": "cod-v1/logistic",
+  "financial_estimates": null,
+  "prepaid_offer": null,
+  "address": {
+    "category": "BAD_UNDELIVERABLE",
+    "quality_score": 0,
+    "reason": "Correct: address, usable street/locality",
+    "review": null,
+    "warnings": []
+  },
+  "warnings": [],
+  "audit_timestamp": "2026-10-31T12:01:44.602577+00:00",
+  "primary_action": "HOLD_CANCEL",
+  "sub_action": "HOLD_ADDRESS",
+  "reason": "Correct: address, usable street/locality",
+  "required_next_step": "Request corrected delivery details; do not ship.",
+  "triggered_rule_ids": [
+    "R1"
+  ],
+  "workflow": {
+    "confirmation_required": false,
+    "reminder_hours": 24.0,
+    "deadline_hours": 48.0,
+    "clock_policy": "From first confirmation request; reminders never reset it.",
+    "delivery_guaranteed_by_yes": false
+  }
+}

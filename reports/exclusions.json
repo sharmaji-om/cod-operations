@@ -1,0 +1,478 @@
+[
+  {
+    "csv_line": 65,
+    "order_id": "KT100329",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 96,
+    "order_id": "KT100799",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 151,
+    "order_id": "KT100710",
+    "reasons": [
+      "invalid:order_value:Input should be greater than 0"
+    ]
+  },
+  {
+    "csv_line": 164,
+    "order_id": "KT101533",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 236,
+    "order_id": "KT100526",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 284,
+    "order_id": "KT101567",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 309,
+    "order_id": "KT100889",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 322,
+    "order_id": "KT101078",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 360,
+    "order_id": "KT100715",
+    "reasons": [
+      "invalid::Value error, customer_prior_rto cannot exceed customer_prior_orders"
+    ]
+  },
+  {
+    "csv_line": 411,
+    "order_id": "KT101360",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 467,
+    "order_id": "KT100894",
+    "reasons": [
+      "invalid::Value error, customer_prior_rto cannot exceed customer_prior_orders"
+    ]
+  },
+  {
+    "csv_line": 478,
+    "order_id": "KT100824",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 524,
+    "order_id": "KT101914",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 526,
+    "order_id": "KT100191",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 541,
+    "order_id": "KT100021",
+    "reasons": [
+      "unresolved_or_invalid_outcome:in_transit"
+    ]
+  },
+  {
+    "csv_line": 548,
+    "order_id": "KT100317",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 598,
+    "order_id": "KT101549",
+    "reasons": [
+      "invalid:order_value:Input should be greater than 0"
+    ]
+  },
+  {
+    "csv_line": 603,
+    "order_id": "KT101939",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 612,
+    "order_id": "KT101345",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 648,
+    "order_id": "KT100526",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 660,
+    "order_id": "KT100504",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 685,
+    "order_id": "KT100191",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 692,
+    "order_id": "KT101360",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 715,
+    "order_id": "KT101130",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 735,
+    "order_id": "KT101258",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 741,
+    "order_id": "KT100565",
+    "reasons": [
+      "invalid:order_value:Input should be greater than 0"
+    ]
+  },
+  {
+    "csv_line": 742,
+    "order_id": "KT101078",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 763,
+    "order_id": "KT101258",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 808,
+    "order_id": "KT101925",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 824,
+    "order_id": "KT100672",
+    "reasons": [
+      "invalid::Value error, customer_prior_rto cannot exceed customer_prior_orders"
+    ]
+  },
+  {
+    "csv_line": 828,
+    "order_id": "KT101366",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 844,
+    "order_id": "KT101345",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 851,
+    "order_id": "KT101914",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 852,
+    "order_id": "KT101074",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 867,
+    "order_id": "KT100799",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 877,
+    "order_id": "KT101036",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 885,
+    "order_id": "KT101130",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 959,
+    "order_id": "KT101925",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 968,
+    "order_id": "KT101366",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 969,
+    "order_id": "KT101746",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1102,
+    "order_id": "KT101819",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1103,
+    "order_id": "KT101939",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1146,
+    "order_id": "KT101887",
+    "reasons": [
+      "invalid::Value error, customer_prior_rto cannot exceed customer_prior_orders"
+    ]
+  },
+  {
+    "csv_line": 1188,
+    "order_id": "KT100889",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1210,
+    "order_id": "KT101047",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1225,
+    "order_id": "KT101692",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1245,
+    "order_id": "KT101036",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1264,
+    "order_id": "KT101282",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1274,
+    "order_id": "KT101746",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1294,
+    "order_id": "KT101761",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1336,
+    "order_id": "KT101355",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1395,
+    "order_id": "KT101247",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1404,
+    "order_id": "KT100317",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1451,
+    "order_id": "KT101533",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1487,
+    "order_id": "KT101074",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1568,
+    "order_id": "KT101819",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1622,
+    "order_id": "KT101761",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1656,
+    "order_id": "KT100329",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1674,
+    "order_id": "KT101247",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1703,
+    "order_id": "KT101355",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1783,
+    "order_id": "KT101282",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1803,
+    "order_id": "KT101692",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1896,
+    "order_id": "KT101047",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1913,
+    "order_id": "KT100987",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1915,
+    "order_id": "KT100504",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1922,
+    "order_id": "KT100987",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1951,
+    "order_id": "KT100824",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  },
+  {
+    "csv_line": 1983,
+    "order_id": "KT101567",
+    "reasons": [
+      "duplicate_order_id_all_copies_quarantined"
+    ]
+  }
+]

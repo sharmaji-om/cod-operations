@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="An explainable COD operations ledger and simulated customer conversations.">
+  <title>Root & Ritual · COD operations</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f625c'/%3E%3Ctext x='16' y='44' font-size='40' fill='%23fff' font-family='Georgia'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/style.css?v=4">
+  <script src="/assets/app.js?v=3" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <a class="brand" href="#ledger" aria-label="Root and Ritual home"><span class="brand-mark">r<span>r</span></span><span>ROOT & RITUAL<small>THE OPERATIONS DESK</small></span></a>
+    <nav aria-label="Main navigation"><button class="nav-link active" data-nav="ledger">Daily ledger</button><button class="nav-link" data-nav="studio">Message studio <span class="small-dot"></span></button></nav>
+    <div class="mast-end"><span class="demo-pill"><span></span> Local demo</span><button class="icon-btn" id="settings-button" aria-label="Open policy and assumptions" title="Policy and assumptions">⚙</button></div>
+  </header>
+  <div class="demo-note">SIMULATION WORKSPACE <span>Fictional orders. Mock messages. Estimated impact.</span><a href="/docs" target="_blank" rel="noreferrer">API reference ↗</a></div>
+  <main id="main" tabindex="-1">
+    <section id="ledger" aria-labelledby="ledger-title">
+      <div class="page-heading"><div><p class="eyebrow">THE DAILY READOUT</p><h1 id="ledger-title">COD operations <span>/ Yesterday</span></h1><p id="date-caption" class="muted">Asia/Kolkata · loading the ledger</p></div><div class="heading-actions"><label class="date-control"><span class="sr-only">Ledger date</span><input type="date" id="date-select"></label><button class="primary" id="review-button">Review exceptions <span aria-hidden="true">↗</span></button></div></div>
+      <div id="ledger-error" class="error-box" role="alert" hidden></div>
+      <div id="ledger-content" aria-busy="true">
+        <section class="impact-panel" aria-labelledby="impact-label">
+          <div class="impact-main"><div class="metric-heading"><span id="impact-label" class="eyebrow">NET ESTIMATED IMPACT</span><button class="info" data-info="net" aria-label="About net estimated impact">i</button><span class="estimate-tag">Scenario estimate</span></div><div id="net-value" class="hero-number skeleton">₹—</div><p id="baseline-caption">Compared with shipping every eligible COD order.</p><button class="text-button" id="calculation-button">View calculation <span aria-hidden="true">↗</span></button></div>
+          <div class="impact-aside"><span class="eyebrow">THE ASSUMPTIONS MATTER</span><p>A clearer view of the trade-off.</p><span class="muted">Protect contribution while giving genuine buyers a way through.</span><button id="assumptions-link" class="text-button">Explore the assumptions →</button><small id="coverage-label"></small></div>
+        </section>
+        <div class="support-metrics">
+          <section><div class="metric-heading"><span>RTO loss avoided</span><button class="info" data-info="avoided" aria-label="About estimated RTO loss avoided">i</button></div><strong id="avoided-value">₹—</strong><small>Modeled before dispatch</small></section>
+          <section><div class="metric-heading"><span>Net foregone margin</span><button class="info" data-info="margin" aria-label="About net foregone delivered margin">i</button></div><strong id="margin-value">₹—</strong><small>From interventions, after modeled conversion gains</small></section>
+          <section><div class="metric-heading"><span>Intervention costs</span><button class="info" data-info="costs" aria-label="About intervention costs">i</button></div><strong id="costs-value">₹—</strong><small>Messages, discounts & processing</small></section>
+        </div>
+        <section class="bucket-section" aria-labelledby="bucket-title"><div class="section-heading"><h2 id="bucket-title">Every order, one starting decision.</h2><span id="order-total" class="muted">— eligible orders</span></div><div id="bucket-bar" class="bucket-bar" aria-label="Initial order decision distribution"></div><div id="bucket-strip" class="bucket-strip"></div></section>
+        <div class="middle-grid"><section class="insight-panel"><p class="eyebrow">WHAT CHANGED</p><h2 id="insight-heading">A daily view, grounded in decisions.</h2><p id="insight-text" class="muted"></p><div id="operational-summary" class="state-summary"></div></section><section id="exceptions" class="exceptions-panel" aria-labelledby="exceptions-title"><div class="section-heading"><h2 id="exceptions-title">Needs a closer look <span id="exception-count"></span></h2><button class="text-button" id="view-exceptions">View all ↗</button></div><div id="exception-list"></div></section></div>
+        <section class="orders-section" aria-labelledby="orders-title"><div class="section-heading"><div><p class="eyebrow">THE ORDER LEDGER</p><h2 id="orders-title">Behind the numbers</h2></div><div class="table-filters"><label><span class="sr-only">Filter initial decision</span><select id="decision-filter"><option value="">All decisions</option><option value="SHIP_AS_IS">Ship directly</option><option value="SHIP_AFTER_CONFIRMATION">WhatsApp confirmation</option><option value="NUDGE_TO_PREPAID">Prepaid nudge</option><option value="HOLD_CANCEL">Hold / cancel</option></select></label><label><span class="sr-only">Filter operational status</span><select id="status-filter"><option value="">All states</option><option>CONFIRM_PENDING</option><option>COD_CONFIRMED</option><option>PREPAID_CONFIRMED</option><option>HELD_EXPIRED</option><option>PAYMENT_PENDING</option><option>CANCELLED</option><option>DIRECT_READY</option></select></label></div></div><div class="table-scroll"><table><thead><tr><th scope="col">Order / customer</th><th scope="col">Order value</th><th scope="col">Initial decision</th><th scope="col">Latest state</th><th scope="col">Demo / model risk</th><th scope="col"><span class="sr-only">Details</span></th></tr></thead><tbody id="orders-body"></tbody></table></div><div class="pagination"><span id="page-label" class="muted"></span><div><button id="prev-page" class="secondary">← Previous</button><button id="next-page" class="secondary">Next →</button></div></div></section>
+      </div><footer class="page-footer"><span>ROOT & RITUAL / INTERNAL OPERATIONS</span><span id="updated-label">All times Asia/Kolkata · estimates are not realized savings.</span></footer>
+    </section>
+    <section id="studio" aria-labelledby="studio-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow">THE CUSTOMER CONVERSATION</p><h1 id="studio-title">A little clarity. <em>Before dispatch.</em></h1><p class="muted">A persistent WhatsApp-style simulator. No real messages or payments.</p></div><button class="secondary" id="create-order">+ Try a new order</button></div>
+      <div id="studio-error" class="error-box" role="alert" hidden></div>
+      <div class="studio-workspace">
+        <aside class="conversation-pane" aria-label="Conversations"><div class="pane-heading"><h2>Conversations</h2><span id="conversation-count"></span></div><label class="search-control"><span aria-hidden="true">⌕</span><span class="sr-only">Search conversations, orders or scenarios</span><input type="search" id="conversation-search" placeholder="Search name, order, scenario…"></label><div id="conversation-list"></div></aside>
+        <section class="chat-pane" aria-label="Simulated message thread"><div id="chat-header" class="chat-header"><p>Select a conversation to begin.</p></div><div id="clock-bar" class="clock-bar"></div><div id="messages" class="messages" role="log" aria-label="Message history" aria-live="polite"></div><div id="chat-controls" class="chat-controls"></div></section>
+        <aside class="context-pane" aria-label="Order details and event history"><div id="chat-context"></div></aside>
+      </div>
+    </section>
+  </main>
+  <dialog id="drawer" aria-labelledby="drawer-title"><div class="drawer-top"><span class="eyebrow" id="drawer-eyebrow">OPERATIONS DESK</span><button class="icon-btn" id="close-drawer" aria-label="Close panel">✕</button></div><h2 id="drawer-title"></h2><div id="drawer-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

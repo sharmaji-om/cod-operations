@@ -1,0 +1,51 @@
+{
+  "policy": {
+    "gross_margin": 0.62,
+    "forward_shipping": 65.0,
+    "return_shipping": 65.0,
+    "packaging": 25.0,
+    "damage_probability": 0.08,
+    "product_cost": 180.0,
+    "confirmation_prevention": 0.5,
+    "confirmation_genuine_loss": 0.03,
+    "message_cost": 1.0,
+    "reject_repeat_enabled": true,
+    "reject_trust_max": -2,
+    "trusted_score_min": 2,
+    "prepaid_risk_cutoff": 0.4,
+    "discount_fraction": 0.05,
+    "discount_cap": 50.0,
+    "converted_prepaid_rto": 0.04,
+    "reminder_hours": 24.0,
+    "deadline_hours": 48.0,
+    "source_smoothing": 30.0,
+    "pincode_smoothing": 50.0,
+    "pincode_min_samples": 15,
+    "city_smoothing": 100.0,
+    "city_max_adjustment": 0.02,
+    "model_version": "cod-v1",
+    "llm_mode": "fallback"
+  },
+  "scenario": {
+    "prepaid_acceptance": 0.3,
+    "processing_fee_fraction": 0.02,
+    "processing_fee_fixed_paise": 0,
+    "brand": "Root & Ritual"
+  },
+  "revision": 2,
+  "audit": [
+    {
+      "id": 2,
+      "at": "2026-10-31T12:47:38.527314+00:00",
+      "before_json": "{\"policy\": {\"gross_margin\": 0.62, \"forward_shipping\": 65.0, \"return_shipping\": 65.0, \"packaging\": 25.0, \"damage_probability\": 0.08, \"product_cost\": 180.0, \"confirmation_prevention\": 0.75, \"confirmation_genuine_loss\": 0.03, \"message_cost\": 1.0, \"reject_repeat_enabled\": true, \"reject_trust_max\": -2, \"trusted_score_min\": 2, \"prepaid_risk_cutoff\": 0.4, \"discount_fraction\": 0.05, \"discount_cap\": 50.0, \"converted_prepaid_rto\": 0.04, \"reminder_hours\": 24.0, \"deadline_hours\": 48.0, \"source_smoothing\": 30.0, \"pincode_smoothing\": 50.0, \"pincode_min_samples\": 15, \"city_smoothing\": 100.0, \"city_max_adjustment\": 0.02, \"model_version\": \"cod-v1\", \"llm_mode\": \"fallback\"}, \"scenario\": {\"prepaid_acceptance\": 0.3, \"processing_fee_fraction\": 0.02, \"processing_fee_fixed_paise\": 0, \"brand\": \"Root & Ritual\"}}",
+      "after_json": "{\"policy\": {\"gross_margin\": 0.62, \"forward_shipping\": 65.0, \"return_shipping\": 65.0, \"packaging\": 25.0, \"damage_probability\": 0.08, \"product_cost\": 180.0, \"confirmation_prevention\": 0.5, \"confirmation_genuine_loss\": 0.03, \"message_cost\": 1.0, \"reject_repeat_enabled\": true, \"reject_trust_max\": -2, \"trusted_score_min\": 2, \"prepaid_risk_cutoff\": 0.4, \"discount_fraction\": 0.05, \"discount_cap\": 50.0, \"converted_prepaid_rto\": 0.04, \"reminder_hours\": 24.0, \"deadline_hours\": 48.0, \"source_smoothing\": 30.0, \"pincode_smoothing\": 50.0, \"pincode_min_samples\": 15, \"city_smoothing\": 100.0, \"city_max_adjustment\": 0.02, \"model_version\": \"cod-v1\", \"llm_mode\": \"fallback\"}, \"scenario\": {\"prepaid_acceptance\": 0.3, \"processing_fee_fraction\": 0.02, \"processing_fee_fixed_paise\": 0, \"brand\": \"Root & Ritual\"}}"
+    },
+    {
+      "id": 1,
+      "at": "2026-10-31T12:47:23.264473+00:00",
+      "before_json": "{\"policy\": {\"gross_margin\": 0.62, \"forward_shipping\": 65.0, \"return_shipping\": 65.0, \"packaging\": 25.0, \"damage_probability\": 0.08, \"product_cost\": 180.0, \"confirmation_prevention\": 0.5, \"confirmation_genuine_loss\": 0.03, \"message_cost\": 1.0, \"reject_repeat_enabled\": true, \"reject_trust_max\": -2, \"trusted_score_min\": 2, \"prepaid_risk_cutoff\": 0.4, \"discount_fraction\": 0.05, \"discount_cap\": 50.0, \"converted_prepaid_rto\": 0.04, \"reminder_hours\": 24.0, \"deadline_hours\": 48.0, \"source_smoothing\": 30.0, \"pincode_smoothing\": 50.0, \"pincode_min_samples\": 15, \"city_smoothing\": 100.0, \"city_max_adjustment\": 0.02, \"model_version\": \"cod-v1\", \"llm_mode\": \"fallback\"}, \"scenario\": {\"prepaid_acceptance\": 0.3, \"processing_fee_fraction\": 0.02, \"processing_fee_fixed_paise\": 0, \"brand\": \"Root & Ritual\"}}",
+      "after_json": "{\"policy\": {\"gross_margin\": 0.62, \"forward_shipping\": 65.0, \"return_shipping\": 65.0, \"packaging\": 25.0, \"damage_probability\": 0.08, \"product_cost\": 180.0, \"confirmation_prevention\": 0.75, \"confirmation_genuine_loss\": 0.03, \"message_cost\": 1.0, \"reject_repeat_enabled\": true, \"reject_trust_max\": -2, \"trusted_score_min\": 2, \"prepaid_risk_cutoff\": 0.4, \"discount_fraction\": 0.05, \"discount_cap\": 50.0, \"converted_prepaid_rto\": 0.04, \"reminder_hours\": 24.0, \"deadline_hours\": 48.0, \"source_smoothing\": 30.0, \"pincode_smoothing\": 50.0, \"pincode_min_samples\": 15, \"city_smoothing\": 100.0, \"city_max_adjustment\": 0.02, \"model_version\": \"cod-v1\", \"llm_mode\": \"fallback\"}, \"scenario\": {\"prepaid_acceptance\": 0.3, \"processing_fee_fraction\": 0.02, \"processing_fee_fixed_paise\": 0, \"brand\": \"Root & Ritual\"}}"
+    }
+  ],
+  "note": "Edits affect future initial decisions and current scenario projections. Existing decisions, offers and workflow clocks are preserved."
+}
